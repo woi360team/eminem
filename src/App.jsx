@@ -22,8 +22,8 @@ function App() {
                 {/* logo begin */}
                 <div id="logo">
                   <a href="index.html">
-                    <img className="logo-1" src="http://localhost:5173/src/assets/images/logo-light.png" alt />
-                    <img className="logo-2" src="http://localhost:5173/src/assets/images/logo.png" alt />
+                    <img className="logo-1" src="./assets/images/logo-light.png" alt />
+                    <img className="logo-2" src="./assets/images/logo.png" alt />
                   </a>
                 </div>
                 {/* logo close */}
@@ -52,7 +52,7 @@ function App() {
   <div className="no-bottom no-top" id="content">
     <div id="top" />
     <section id="section-hero" aria-label="section" className="jarallax">
-      <img src="http://localhost:5173/src/assets/img/bg1.gif" className="jarallax-img" alt />
+      <img src="./assets/img/bg1.gif" className="jarallax-img" alt />
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-12 text-light">
@@ -71,19 +71,19 @@ function App() {
                     <div className="de_form de_radio row g-3">
                       <div className="radio-img col-lg-3 col-sm-3 col-6">
                         <input id="radio-1a" name="Car_Type" type="radio" defaultValue="Residential" defaultChecked="checked" />
-                        <label htmlFor="radio-1a"><img src="http://localhost:5173/src/assets/images/select-form/car.png" alt />Car</label>
+                        <label htmlFor="radio-1a"><img src="./assets/images/select-form/car.png" alt />Car</label>
                       </div>
                       <div className="radio-img col-lg-3 col-sm-3 col-6">
                         <input id="radio-1b" name="Car_Type" type="radio" defaultValue="Office" />
-                        <label htmlFor="radio-1b"><img src="http://localhost:5173/src/assets/images/select-form/van.png" alt />Van</label>
+                        <label htmlFor="radio-1b"><img src="./assets/images/select-form/van.png" alt />Van</label>
                       </div>
                       <div className="radio-img col-lg-3 col-sm-3 col-6">
                         <input id="radio-1c" name="Car_Type" type="radio" defaultValue="Commercial" />
-                        <label htmlFor="radio-1c"><img src="http://localhost:5173/src/assets/images/select-form/minibus.png" alt />Minibus</label>
+                        <label htmlFor="radio-1c"><img src="./assets/images/select-form/minibus.png" alt />Minibus</label>
                       </div>
                       <div className="radio-img col-lg-3 col-sm-3 col-6">
                         <input id="radio-1d" name="Car_Type" type="radio" defaultValue="Retail" />
-                        <label htmlFor="radio-1d"><img src="http://localhost:5173/src/assets/images/select-form/sportscar.png" alt />Prestige</label>
+                        <label htmlFor="radio-1d"><img src="./assets/images/select-form/sportscar.png" alt />Prestige</label>
                       </div>
                     </div>
                   </div>
@@ -282,7 +282,7 @@ function App() {
             </div>
           </div>
           <div className="col-lg-6">
-            <img src="http://localhost:5173/src/assets/images/misc/car.png" alt className="img-fluid wow fadeInUp" />
+            <img src="./assets/images/misc/car.png" alt className="img-fluid wow fadeInUp" />
           </div>
           <div className="col-lg-3">
             <div className="box-icon s2 d-invert p-small mb20 wow fadeInL fadeInLeft" data-wow-delay="1s">
@@ -304,7 +304,7 @@ function App() {
       </div>
     </section>
     <section className="text-light jarallax">
-      <img src="http://localhost:5173/src/assets/images/background/2.jpg" className="jarallax-img" alt />
+      <img src="./assets/images/background/2.jpg" className="jarallax-img" alt />
       <div className="container">
         <div className="row g-5">
           <div className="col-lg-6 wow fadeInRight">
@@ -356,7 +356,7 @@ function App() {
             <div className="col-lg-12">
               <div className="de-item mb30">
                 <div className="d-img">
-                  <img src="http://localhost:5173/src/assets/images/cars/jeep-renegade.jpg" className="img-fluid" alt />
+                  <img src="./assets/images/cars/jeep-renegade.jpg" className="img-fluid" alt />
                 </div>
                 <div className="d-info">
                   <div className="d-text">
@@ -372,7 +372,7 @@ function App() {
             <div className="col-lg-12">
               <div className="de-item mb30">
                 <div className="d-img">
-                  <img src="http://localhost:5173/src/assets/images/cars/bmw-m5.jpg" className="img-fluid" alt />
+                  <img src="./assets/images/cars/bmw-m5.jpg" className="img-fluid" alt />
                 </div>
                 <div className="d-info">
                   <div className="d-text">
@@ -388,7 +388,7 @@ function App() {
             <div className="col-lg-12">
               <div className="de-item mb30">
                 <div className="d-img">
-                  <img src="http://localhost:5173/src/assets/images/cars/ferrari-enzo.jpg" className="img-fluid" alt />
+                  <img src="./assets/images/cars/ferrari-enzo.jpg" className="img-fluid" alt />
                 </div>
                 <div className="d-info">
                   <div className="d-text">
@@ -404,7 +404,7 @@ function App() {
             <div className="col-lg-12">
               <div className="de-item mb30">
                 <div className="d-img">
-                  <img src="http://localhost:5173/src/assets/images/cars/ford-raptor.jpg" className="img-fluid" alt />
+                  <img src="./assets/images/cars/ford-raptor.jpg" className="img-fluid" alt />
                 </div>
                 <div className="d-info">
                   <div className="d-text">
@@ -420,7 +420,7 @@ function App() {
             <div className="col-lg-12">
               <div className="de-item mb30">
                 <div className="d-img">
-                  <img src="http://localhost:5173/src/assets/images/cars/mini-cooper.jpg" className="img-fluid" alt />
+                  <img src="./assets/images/cars/mini-cooper.jpg" className="img-fluid" alt />
                 </div>
                 <div className="d-info">
                   <div className="d-text">
@@ -436,7 +436,7 @@ function App() {
             <div className="col-lg-12">
               <div className="de-item mb30">
                 <div className="d-img">
-                  <img src="http://localhost:5173/src/assets/images/cars/vw-polo.jpg" className="img-fluid" alt />
+                  <img src="./assets/images/cars/vw-polo.jpg" className="img-fluid" alt />
                 </div>
                 <div className="d-info">
                   <div className="d-text">
@@ -454,7 +454,7 @@ function App() {
       </div>
     </section>
     <section className="text-light jarallax" aria-label="section">
-      <img src="http://localhost:5173/src/assets/images/background/3.jpg" alt className="jarallax-img" />
+      <img src="./assets/images/background/3.jpg" alt className="jarallax-img" />
       <div className="container">
         <div className="row">
           <div className="col-lg-3">
@@ -496,7 +496,7 @@ function App() {
                     <div className="m">10</div>
                     <div className="d">MAR</div>
                   </div>
-                  <img alt src="http://localhost:5173/src/assets/images/news/pic-blog-1.jpg" className="lazy" />
+                  <img alt src="./assets/images/news/pic-blog-1.jpg" className="lazy" />
                 </div>
                 <div className="post-text">                         
                   <h4><a href="news-single.html">Enjoy Best Travel Experience<span /></a></h4>
@@ -514,7 +514,7 @@ function App() {
                     <div className="m">12</div>
                     <div className="d">MAR</div>
                   </div>
-                  <img alt src="http://localhost:5173/src/assets/images/news/pic-blog-2.jpg" className="lazy" />
+                  <img alt src="./assets/images/news/pic-blog-2.jpg" className="lazy" />
                 </div>
                 <div className="post-text">                           
                   <h4><a href="news-single.html">The Future of Car Rent<span /></a></h4>
@@ -532,7 +532,7 @@ function App() {
                     <div className="m">14</div>
                     <div className="d">MAR</div>
                   </div>
-                  <img alt src="http://localhost:5173/src/assets/images/news/pic-blog-3.jpg" className="lazy" />
+                  <img alt src="./assets/images/news/pic-blog-3.jpg" className="lazy" />
                 </div>
                 <div className="post-text">                            
                   <h4><a href="news-single.html">Holiday Tips For Backpacker<span /></a></h4>
@@ -558,7 +558,7 @@ function App() {
                   <span className="by">Vinay</span>
                 </blockquote>
               </div> 
-              <img src="http://localhost:5173/src/assets/images/testimonial/1.jpg" className="img-fluid" alt />
+              <img src="./assets/images/testimonial/1.jpg" className="img-fluid" alt />
             </div>
           </div>
           <div className="col-md-4">
@@ -571,7 +571,7 @@ function App() {
                   <span className="by">Jovan Reels</span>
                 </blockquote>
               </div>
-              <img src="http://localhost:5173/src/assets/images/testimonial/2.jpg" className="img-fluid" alt />
+              <img src="./assets/images/testimonial/2.jpg" className="img-fluid" alt />
             </div>
           </div>
           <div className="col-md-4">
@@ -584,7 +584,7 @@ function App() {
                   <span className="by">Kanesha Keyton</span>
                 </blockquote>
               </div>
-              <img src="http://localhost:5173/src/assets/images/testimonial/3.jpg" className="img-fluid" alt />
+              <img src="./assets/images/testimonial/3.jpg" className="img-fluid" alt />
             </div>
           </div>
         </div>

@@ -26,10 +26,7 @@ function App() {
 
   return (
   <div id="wrapper">
-  {/* page preloader begin */}
-  <div id="de-preloader" />
-  {/* page preloader close */}
-  {/* header begin */}
+ 
   <header className="transparent scroll-light has-topbar">
     <div className="container">
       <div className="row">

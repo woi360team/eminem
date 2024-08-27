@@ -6,6 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": "https://eminem-demo.vercel.app/",
+      changeOrigin: true,
     }  
   } ,
   plugins: [react()],
